@@ -38,7 +38,8 @@
   <build>
     <plugins>
       <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
+         <groupId>org.sonatype.plugins</groupId>
+        <artifactId>nexus-staging-maven-plugin</artifactId>
         <configuration>
           <source>1.6</source>
           <target>1.6</target>
