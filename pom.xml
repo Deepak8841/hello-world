@@ -37,6 +37,11 @@
       <name>Snapshot</name>
       <url>http://localhost:8081/repository/maven-snapshots</url>
     </snapshotRepository>
+     <snapshotRepository>
+      <id>deployment</id>
+      <name>Internal Snapshot Releases</name>
+      <url>http://localhost:8081/repository/Nexus-spring/</url>
+    </snapshotRepository>
   </distributionManagement>
          
   <build>
